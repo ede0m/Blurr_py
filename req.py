@@ -29,7 +29,6 @@ class Req (object):
 		try:
 			r = requests.get(self.domain, timeout=6.0, headers={'user-agent': self.UAs['ChromeMac']})
 			self.html = r.text
-
 		except:
 			#print(self.domain)
 			return
