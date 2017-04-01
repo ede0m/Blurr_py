@@ -1,0 +1,177 @@
+{
+	"sex": {
+		"M":{	
+				"num":13,
+				"1":"http://www.realmenrealstyle.com/",
+				"2":"https://effortlessgent.com/",
+				"3":"http://www.themodestman.com/",
+				"4":"https://www.beardbrand.com/",
+				"5":"https://www.mantelligence.com/",
+				"6":"http://ironandtweed.com/",
+				"7":"https://www.iamalpham.com/",
+				"8":"https://theartofcharm.com/",
+				"9":"http://www.orderofman.com/",
+				"10":"http://www.primermagazine.com/",
+				"11":"https://www.urbandaddy.com/",
+				"12":"http://www.thebachelorguy.com/",
+				"13":"http://www.dudepins.com/"
+			},
+		"F": {
+				"num":13,
+				"1":"https://www.ellevatenetwork.com/",
+				"2":"https://20-nothings.com/",
+				"3":"https://www.babble.com/",
+				"4":"http://www.blogher.com/",
+				"5":"http://thebloggess.com/",
+				"6":"http://www.thebossnetwork.org/",
+				"7":"https://www.thebump.com/",
+				"8":"http://www.catalyst.org/",
+				"9":"http://www.chic-ceo.com/",
+				"10":"http://www.citygirlconfidence.com/",
+				"11":"http://www.corporette.com/",
+				"12":"https://www.dailyworth.com/",
+				"13":"http://dooce.com/"
+			},
+		"T": {
+				"num":0
+		}
+	},
+	"politics": {
+		"L": {	
+				"num":10,
+				"1":"http://www.huffingtonpost.com/",
+				"2":"http://www.cnn.com/",
+				"3":"http://time.com/",
+				"4":"http://www.npr.org/",
+				"5":"http://www.slate.com/",
+				"6":"http://www.democraticunderground.com/",
+				"7":"http://crooksandliars.com/",
+				"8":"https://www.thenation.com/",
+				"9":"http://www.motherjones.com/",
+				"10":"http://www.counterpunch.org/"
+			},
+		"R": {
+				"num":10,
+				"1":"http://www.foxnews.com/",
+				"2":"http://online.wsj.com/public/page/news-opinion-commentary.html/",
+				"3":"http://www.drudgereport.com/",
+				"4":"http://www.theblaze.com/",
+				"5":"http://nypost.com/",
+				"6":"http://www.breitbart.com/",
+				"7":"http://www.ijreview.com/",
+				"8":"http://newsmax.com/",
+				"9":"http://www.wnd.com/",
+				"10":"http://dailycaller.com/"
+		},
+		"M":{
+				"num":0
+		}
+	},
+	"race": {
+		"AMI":{
+				"num":6,
+				"1":"http://www.beyondbuckskin.com/",
+				"2":"https://indiancountrymedianetwork.com/",
+				"3":"http://www.nativepeoples.com/",
+				"4":"http://www.igiugig.com/",
+				"5":"http://www.chickaloon.org/",
+				"6":"http://www.wmat.nsn.us/"
+		},
+		"ASI":{
+				"num":7,
+				"1":"http://www.renren.com/",
+				"2":"https://www.asiandating.com",
+				"3":"https://www.asiancrush.com/",
+				"4":"http://asiasociety.org/",
+				"5":"http://www.baidu.com/",
+				"6":"http://www.qq.com/",
+				"7":"http://www.sina.com.cn/"
+		},
+		"AFA":{
+				"num":7,
+				"1":"http://globalgrind.com/",
+				"2":"http://www.huffingtonpost.com/black-voices/",
+				"3":"http://blackamericaweb.com/",
+				"4":"http://www.blackplanet.com/",
+				"5":"http://madamenoire.com/",
+				"6":"http://www.nationalbbc.org",
+				"7":"http://www.blackfilm.com"
+		},
+		"PCI":{
+				"num":0
+		},
+		"WHT":{
+				"num":2,
+				"1":"https://stuffwhitepeoplelike.com/",
+				"2":"https://wherewhitepeoplemeet.com/",
+				"3":"-"
+		},
+		"HSP":{
+				"num":5,
+				"1":"https://www.latinopeoplemeet.com/",
+				"2":"http://www.beinglatino.us/",
+				"3":"http://www.musica.com/",
+				"4":"http://www.telemundo.com/",
+				"5":"http://www.vix.com/es/imujer",
+				"6":"-"
+		},
+		"MDE":{
+				"num":6,
+				"1":"http://www.indiatimes.com",
+				"2":"http://www.dailypakistan.com.pk/",
+				"3":"http://www.youm7.com/",
+				"4":"http://www.khaleejtimes.com/",
+				"5":"http://www.manoramaonline.com/",
+				"6":"http://uae.souq.com/ae-en/"
+		}
+	},
+	"orientation": {
+		"STR": {
+				"num":0
+		},
+		"GAY": {
+				"num":0
+		},
+		"OTH": {
+				"num":0
+		}
+	},
+	"interests": {
+		"GARD":{
+				"num":4,
+				"1":"https://www.seedmoney.org/",
+				"2":"http://chiotsrun.com/",
+				"3":"https://www.rhs.org.uk/",
+				"4":"http://carletongarden.blogspot.com/",
+				"5":"-"
+		},
+		"NFL":{
+				"num":1,
+				"1":"http://www.nfl.com/"
+			},
+		"NHL":{
+				"num":1,
+				"1":"http://www.nhl.com/"
+		},
+		"NBA":{
+				"num":1,
+				"1":"http://www.nba.com/"
+		},
+		"GUN":{
+				"num":1,
+				"1":"https://home.nra.org/"
+		},
+		"TECH":{
+				"num":0
+		},
+		"CARS":{
+				"num":0
+		},
+		"GAME":{
+				"num":0
+		}
+	}
+}
+
+
+
