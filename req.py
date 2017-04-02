@@ -6,6 +6,7 @@
 #from selenium import webdriver
 #from pyvirtualdisplay import Display
 import requests
+import webbrowser
 import time
 import random
 from bs4 import BeautifulSoup
@@ -26,11 +27,13 @@ class Req (object):
 
 
 	def __domainRequest(self):
+		
 		try:
 			r = requests.get(self.domain, timeout=6.0, headers={'user-agent': self.UAs['ChromeMac']})
 			self.html = r.text
+			webbrowser.open(self.domain, new = 0)
+			# webbrowser.get('/usr/bin/google-chrome %s').open(self.domain, new=0)
 		except:
-			#print(self.domain)
 			return
 		
 		print("\n Visited ", self.domain, '\n')
@@ -40,7 +43,9 @@ class Req (object):
 
 	def __linkRequests(self):
 		
-			## extract links ##
+		#### THIS method COULD ALSO ADD TO INDEX.JSON WITH ALL THE LINKS IT FINDS? ####
+
+		## extract links ##
 		if self.html != None:	
 			soup = BeautifulSoup(self.html, 'lxml')
 			count = 1
@@ -56,7 +61,9 @@ class Req (object):
 				key = random.randint(1, num_links_found)
 				try:
 					link = self.links[key]
-					r = requests.get(link, timeout=6.0, headers = {'user-agent': self.UAs['ChromeMac']})
+					webbrowser.open(link, new = 0)
+					#webbrowser.get('/usr/bin/google-chrome %s').open(link, new=0)
+					#r = requests.get(link, timeout=6.0, headers = {'user-agent': self.UAs['ChromeMac']})
 					print("		- Linked to ", link)
 				except:
 					pass
@@ -68,7 +75,6 @@ class Req (object):
 		self.__linkRequests()
 		
 
-#### THIS CLASS COULD ALSO ADD TO INDEX.JSON WITH ALL THE LINKS IT FINDS? ####
 
 
 #display = Display(visible=0, size=(800, 600))
