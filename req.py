@@ -3,10 +3,10 @@
 ##        Garritt Moede			  ##
 
 
-#from selenium import webdriver
-#from pyvirtualdisplay import Display
+from selenium import webdriver
+# from pyvirtualdisplay import Display
 import requests
-import webbrowser
+# import webbrowser
 import time
 import random
 from bs4 import BeautifulSoup
@@ -26,12 +26,13 @@ class Req (object):
 					}
 
 
-	def __domainRequest(self):
+	def __domainRequest(self, driver):
 		
 		try:
 			r = requests.get(self.domain, timeout=6.0, headers={'user-agent': self.UAs['ChromeMac']})
 			self.html = r.text
-			webbrowser.open(self.domain, new = 0)
+			driver.get(self.domain)
+			# webbrowser.open(self.domain, new = 0)
 			# webbrowser.get('/usr/bin/google-chrome %s').open(self.domain, new=0)
 		except:
 			return
@@ -41,7 +42,7 @@ class Req (object):
 		
 
 
-	def __linkRequests(self):
+	def __linkRequests(self, driver):
 		
 		#### THIS method COULD ALSO ADD TO INDEX.JSON WITH ALL THE LINKS IT FINDS? ####
 
@@ -61,18 +62,19 @@ class Req (object):
 				key = random.randint(1, num_links_found)
 				try:
 					link = self.links[key]
-					webbrowser.open(link, new = 0)
-					#webbrowser.get('/usr/bin/google-chrome %s').open(link, new=0)
-					#r = requests.get(link, timeout=6.0, headers = {'user-agent': self.UAs['ChromeMac']})
+					# webbrowser.open(link, new = 0)
+					# webbrowser.get('/usr/bin/google-chrome %s').open(link, new=0)
+					# r = requests.get(link, timeout=6.0, headers = {'user-agent': self.UAs['ChromeMac']})
+					driver.get(link)
 					print("		- Linked to ", link)
 				except:
 					pass
 				time.sleep(self.waitTime)
 				count += 1
 
-	def run(self):
-		self.__domainRequest()
-		self.__linkRequests()
+	def run(self, driver):
+		self.__domainRequest(driver)
+		self.__linkRequests(driver)
 		
 
 
@@ -80,8 +82,8 @@ class Req (object):
 #display = Display(visible=0, size=(800, 600))
 #display.start()
 ### BROWSER EMULATION ###
-#driver = webdriver.Chrome("/Users/garritt/CODEDOG/DS/noiz/chromedriver")
-#driver.get('http://www.junk.com/');
+# driver = webdriver.Chrome("/Users/garritt/CODEDOG/DS/noiz/chromedriver")
+# driver.get('http://www.junk.com/')
 # click functionality (naviagte every site a little bit)
 #time.sleep(1) # Let the user actually see something!
 #driver.quit()
