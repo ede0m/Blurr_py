@@ -1,6 +1,8 @@
 # Blurr_py
 Tool that camouflages your browsing data with a controlled stream of meaningless web-traffic.
 
+check out the [chrome extension](https://chrome.google.com/webstore/detail/blurr/mmdcjjfkgpccnbcocnfomkldcooghhpp?authuser=1)
+
 **Notes**:
   
   The program can be used with *selenium*, a browser emulator, or pythons *webbrowser* module.
@@ -18,3 +20,4 @@ Tool that camouflages your browsing data with a controlled stream of meaningless
 
 **Run**:
 `python3 frame.py`
+
