@@ -1,6 +1,6 @@
-## Requests Wrapper for Fluff.app ##
+## Requests Wrapper for Blurr.app ##
 ##								  ##
-##        Garritt Moede			  ##
+##            Ede0m      		  ##
 
 
 from selenium import webdriver
@@ -82,7 +82,7 @@ class Req (object):
 #display = Display(visible=0, size=(800, 600))
 #display.start()
 ### BROWSER EMULATION ###
-# driver = webdriver.Chrome("/Users/garritt/CODEDOG/DS/noiz/chromedriver")
+# driver = webdriver.Chrome("")
 # driver.get('http://www.junk.com/')
 # click functionality (naviagte every site a little bit)
 #time.sleep(1) # Let the user actually see something!

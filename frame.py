@@ -1,7 +1,7 @@
-##  Main frame for Fluff.app  ##
+##  Main frame for blurr.app  ##
 ##
-## 		 Garritt Moede 		  ##
-
+## 		   ede0m 		      ##
+ 
 
 
 #### TODO ####
@@ -9,7 +9,7 @@
 # - selenium doesn't use correct browsing history
 # - Get current users UserAgent, remove hardcoding fool
 # 
-# - set up as chrome extension
+# - limit to update tab using webrowser module in req.py
 # - input settings
 #
 #
@@ -20,6 +20,7 @@ import json
 # import webbrowser
 from req import Req
 from selenium import webdriver
+import os
 
 print('\n  Loading Index ... \n')
 data = None
@@ -28,7 +29,10 @@ with open('index.json') as json_data:
 
 print('- Beginning Default Masking - \n')
 # webbrowser.get('/usr/bin/google-chrome %s').open('http://google.com')
-driver = webdriver.Chrome("/Users/garritt/CODEDOG/fluff/chromedriver")
+
+path = os.getcwd() + "/chromedriver" # CHANGE CHROMEDRIVE PATH HERE IF USING OS BESIDES MAC OSX
+#print(path)
+driver = webdriver.Chrome(path)
 while True:
 	for tag in data.keys():
 		## Settings clause somehere around here
