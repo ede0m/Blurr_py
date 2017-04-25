@@ -6,9 +6,9 @@
 
 #### TODO ####
 # 
-# - make it change web broswer history ...
+# - selenium doesn't use correct browsing history
 # - Get current users UserAgent, remove hardcoding fool
-
+# 
 # - set up as chrome extension
 # - input settings
 #

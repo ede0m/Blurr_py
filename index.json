@@ -1,6 +1,7 @@
 {
-	"sex": {
+	"Sex": {
 		"M":{	
+				"checked":false,
 				"num":13,
 				"1":"http://www.realmenrealstyle.com/",
 				"2":"https://effortlessgent.com/",
@@ -17,6 +18,7 @@
 				"13":"http://www.dudepins.com/"
 			},
 		"F": {
+				"checked":false,
 				"num":13,
 				"1":"https://www.ellevatenetwork.com/",
 				"2":"https://20-nothings.com/",
@@ -31,13 +33,11 @@
 				"11":"http://www.corporette.com/",
 				"12":"https://www.dailyworth.com/",
 				"13":"http://dooce.com/"
-			},
-		"T": {
-				"num":0
-		}
+			}
 	},
-	"politics": {
+	"Politics": {
 		"L": {	
+				"checked":false,
 				"num":10,
 				"1":"http://www.huffingtonpost.com/",
 				"2":"http://www.cnn.com/",
@@ -51,6 +51,7 @@
 				"10":"http://www.counterpunch.org/"
 			},
 		"R": {
+				"checked":false,
 				"num":10,
 				"1":"http://www.foxnews.com/",
 				"2":"http://online.wsj.com/public/page/news-opinion-commentary.html/",
@@ -62,13 +63,11 @@
 				"8":"http://newsmax.com/",
 				"9":"http://www.wnd.com/",
 				"10":"http://dailycaller.com/"
-		},
-		"M":{
-				"num":0
 		}
 	},
-	"race": {
+	"Race": {
 		"AMI":{
+				"checked":false,
 				"num":6,
 				"1":"http://www.beyondbuckskin.com/",
 				"2":"https://indiancountrymedianetwork.com/",
@@ -78,16 +77,16 @@
 				"6":"http://www.wmat.nsn.us/"
 		},
 		"ASI":{
+				"checked":false,
 				"num":7,
 				"1":"http://www.renren.com/",
-				"2":"https://www.asiandating.com",
-				"3":"https://www.asiancrush.com/",
-				"4":"http://asiasociety.org/",
-				"5":"http://www.baidu.com/",
-				"6":"http://www.qq.com/",
-				"7":"http://www.sina.com.cn/"
+				"2":"http://asiasociety.org/",
+				"3":"http://www.baidu.com/",
+				"4":"http://www.qq.com/",
+				"5":"http://www.sina.com.cn/"
 		},
 		"AFA":{
+				"checked":false,
 				"num":7,
 				"1":"http://globalgrind.com/",
 				"2":"http://www.huffingtonpost.com/black-voices/",
@@ -98,15 +97,18 @@
 				"7":"http://www.blackfilm.com"
 		},
 		"PCI":{
+				"checked":false,
 				"num":0
 		},
 		"WHT":{
+				"checked":false,
 				"num":2,
 				"1":"https://stuffwhitepeoplelike.com/",
 				"2":"https://wherewhitepeoplemeet.com/",
 				"3":"-"
 		},
 		"HSP":{
+				"checked":false,
 				"num":5,
 				"1":"https://www.latinopeoplemeet.com/",
 				"2":"http://www.beinglatino.us/",
@@ -116,6 +118,7 @@
 				"6":"-"
 		},
 		"MDE":{
+				"checked":false,
 				"num":6,
 				"1":"http://www.indiatimes.com",
 				"2":"http://www.dailypakistan.com.pk/",
@@ -125,19 +128,32 @@
 				"6":"http://uae.souq.com/ae-en/"
 		}
 	},
-	"orientation": {
+	"Sexual-Orientation": {
 		"STR": {
+				"checked":false,
 				"num":0
 		},
 		"GAY": {
+				"checked":false,
 				"num":0
 		},
 		"OTH": {
+				"checked":false,
 				"num":0
 		}
 	},
-	"interests": {
-		"GARD":{
+	"Interests": {
+		"OUTDOOR": {
+				"checked":false,
+				"num":5,
+				"1":"https://www.rei.com/",
+				"2":"https://www.nps.gov/index.htm",
+				"3":"http://www.nationalgeographic.com/adventure/activities/hiking-and-backpacking/",
+				"4":"http://www.nationalgeographic.com/",
+				"5":"https://paddling.com/"
+		},
+		"GARDEN":{
+				"checked":false,
 				"num":4,
 				"1":"https://www.seedmoney.org/",
 				"2":"http://chiotsrun.com/",
@@ -146,29 +162,56 @@
 				"5":"-"
 		},
 		"NFL":{
-				"num":1,
-				"1":"http://www.nfl.com/"
+				"checked":false,
+				"num":2,
+				"1":"http://www.nfl.com/",
+				"2":"https://www.reddit.com/r/nfl/"
 			},
 		"NHL":{
-				"num":1,
-				"1":"http://www.nhl.com/"
+				"checked":false,
+				"num":2,
+				"1":"http://www.nhl.com/",
+				"2":"https://www.reddit.com/r/nhl/"
 		},
 		"NBA":{
-				"num":1,
-				"1":"http://www.nba.com/"
+				"checked":false,
+				"num":2,
+				"1":"http://www.nba.com/",
+				"2":"https://www.reddit.com/r/nba/"
 		},
 		"GUN":{
-				"num":1,
-				"1":"https://home.nra.org/"
+				"checked":false,
+				"num":3,
+				"1":"https://home.nra.org/",
+				"2":"https://www.reddit.com/r/guns/",
+				"3":"https://www.1791apparel.com/"
 		},
 		"TECH":{
-				"num":0
+				"checked":false,
+				"num":4,
+				"1": "http://www.theverge.com/",
+				"2": "https://arstechnica.com/",
+				"3": "https://techcrunch.com/",
+				"4": "https://www.digitalocean.com/"
 		},
 		"CARS":{
-				"num":0
+				"checked":false,
+				"num":3,
+				"1":"https://www.reddit.com/r/cars/",
+				"2":"https://www.cars.com/",
+				"3":"http://www.topspeed.com/"
 		},
-		"GAME":{
-				"num":0
+		"GAMING":{
+				"checked":false,
+				"num":3,
+				"1":"https://www.reddit.com/r/gaming/",
+				"2":"http://www.ign.com/",
+				"3":"http://n4g.com/"
+		}
+	},
+	"Custom": {
+		"custom":{
+			"num":0
 		}
 	}
 }
