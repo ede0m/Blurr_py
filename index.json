@@ -65,153 +65,117 @@
 				"10":"http://dailycaller.com/"
 		}
 	},
-	"Race": {
-		"AMI":{
-				"checked":false,
-				"num":6,
-				"1":"http://www.beyondbuckskin.com/",
-				"2":"https://indiancountrymedianetwork.com/",
-				"3":"http://www.nativepeoples.com/",
-				"4":"http://www.igiugig.com/",
-				"5":"http://www.chickaloon.org/",
-				"6":"http://www.wmat.nsn.us/"
-		},
-		"ASI":{
-				"checked":false,
-				"num":7,
-				"1":"http://www.renren.com/",
-				"2":"http://asiasociety.org/",
-				"3":"http://www.baidu.com/",
-				"4":"http://www.qq.com/",
-				"5":"http://www.sina.com.cn/"
-		},
-		"AFA":{
-				"checked":false,
-				"num":7,
-				"1":"http://globalgrind.com/",
-				"2":"http://www.huffingtonpost.com/black-voices/",
-				"3":"http://blackamericaweb.com/",
-				"4":"http://www.blackplanet.com/",
-				"5":"http://madamenoire.com/",
-				"6":"http://www.nationalbbc.org",
-				"7":"http://www.blackfilm.com"
-		},
-		"PCI":{
-				"checked":false,
-				"num":0
-		},
-		"WHT":{
-				"checked":false,
-				"num":2,
-				"1":"https://stuffwhitepeoplelike.com/",
-				"2":"https://wherewhitepeoplemeet.com/",
-				"3":"-"
-		},
-		"HSP":{
-				"checked":false,
-				"num":5,
-				"1":"https://www.latinopeoplemeet.com/",
-				"2":"http://www.beinglatino.us/",
-				"3":"http://www.musica.com/",
-				"4":"http://www.telemundo.com/",
-				"5":"http://www.vix.com/es/imujer",
-				"6":"-"
-		},
-		"MDE":{
-				"checked":false,
-				"num":6,
-				"1":"http://www.indiatimes.com",
-				"2":"http://www.dailypakistan.com.pk/",
-				"3":"http://www.youm7.com/",
-				"4":"http://www.khaleejtimes.com/",
-				"5":"http://www.manoramaonline.com/",
-				"6":"http://uae.souq.com/ae-en/"
-		}
-	},
-	"Sexual-Orientation": {
-		"STR": {
-				"checked":false,
-				"num":0
-		},
-		"GAY": {
-				"checked":false,
-				"num":0
-		},
-		"OTH": {
-				"checked":false,
-				"num":0
-		}
-	},
 	"Interests": {
 		"OUTDOOR": {
 				"checked":false,
-				"num":5,
+				"num":10,
 				"1":"https://www.rei.com/",
 				"2":"https://www.nps.gov/index.htm",
 				"3":"http://www.nationalgeographic.com/adventure/activities/hiking-and-backpacking/",
 				"4":"http://www.nationalgeographic.com/",
-				"5":"https://paddling.com/"
+				"5":"https://paddling.com/",
+				"6":"https://www.fishfinders.info/",
+				"7":"http://chiotsrun.com/",
+				"8":"https://www.rhs.org.uk/",
+				"9":"http://carletongarden.blogspot.com/",
+				"10": "https://home.nra.org/"
 		},
-		"GARDEN":{
+		"SPORT": {
 				"checked":false,
-				"num":4,
-				"1":"https://www.seedmoney.org/",
-				"2":"http://chiotsrun.com/",
-				"3":"https://www.rhs.org.uk/",
-				"4":"http://carletongarden.blogspot.com/",
-				"5":"-"
-		},
-		"NFL":{
-				"checked":false,
-				"num":2,
-				"1":"http://www.nfl.com/",
-				"2":"https://www.reddit.com/r/nfl/"
-			},
-		"NHL":{
-				"checked":false,
-				"num":2,
+				"num":10,
 				"1":"http://www.nhl.com/",
-				"2":"https://www.reddit.com/r/nhl/"
+				"2":"https://www.reddit.com/r/nhl/",
+				"3":"http://sports.yahoo.com/blogs/nhl-puck-daddy/",
+				"4":"http://www.nfl.com/",
+				"5":"https://www.reddit.com/r/nfl/",
+				"6":"http://presnapreads.com/",
+				"7":"http://www.sbnation.com/nfl",
+				"8":"http://www.nba.com/",
+				"9":"https://www.reddit.com/r/nba/",
+				"10":"http://www.eskimo.com/~pbender/"
 		},
-		"NBA":{
+		"SCI-TECH":{
 				"checked":false,
-				"num":2,
-				"1":"http://www.nba.com/",
-				"2":"https://www.reddit.com/r/nba/"
-		},
-		"GUN":{
-				"checked":false,
-				"num":3,
-				"1":"https://home.nra.org/",
-				"2":"https://www.reddit.com/r/guns/",
-				"3":"https://www.1791apparel.com/"
-		},
-		"TECH":{
-				"checked":false,
-				"num":4,
+				"num":7,
 				"1": "http://www.theverge.com/",
 				"2": "https://arstechnica.com/",
 				"3": "https://techcrunch.com/",
-				"4": "https://www.digitalocean.com/"
+				"4": "https://www.digitalocean.com/",
+				"5": "http://www.nextbigfuture.com/",
+				"6": "https://phys.org/",
+				"7": "http://www.sciencemag.org/"
 		},
 		"CARS":{
 				"checked":false,
-				"num":3,
+				"num":6,
 				"1":"https://www.reddit.com/r/cars/",
 				"2":"https://www.cars.com/",
-				"3":"http://www.topspeed.com/"
+				"3":"http://www.topspeed.com/",
+				"4":"https://www.truecar.com/#/",
+				"5":"http://www.carscoops.com/",
+				"6": "http://www.autonews.com/"
 		},
 		"GAMING":{
 				"checked":false,
-				"num":3,
+				"num":6,
 				"1":"https://www.reddit.com/r/gaming/",
 				"2":"http://www.ign.com/",
-				"3":"http://n4g.com/"
-		}
-	},
-	"Custom": {
-		"custom":{
-			"num":0
+				"3":"http://n4g.com/",
+				"4":"http://kotaku.com/",
+				"5":"http://www.pcgamer.com/",
+				"6": "http://www.polygon.com/"
+		},
+		"HOUSING" : {
+				"checked":false,
+				"num":5,
+				"1":"https://www.zumper.com/",
+				"2":"https://www.redfin.com/",
+				"3":"http://www.homecarepulse.com/uncategorized/blog-introduction/",
+				"4":"http://www.elledecor.com/",
+				"5":"https://www.onekingslane.com/"
+		},
+		"COOKING":{
+				"checked":false,
+				"num":5,
+				"1":"http://www.allrecipes.com/",
+				"2":"https://www.chowhound.com/",
+				"3":"http://www.cookingwithgifs.com/",
+				"4":"http://www.williams-sonoma.com/",
+				"5":"http://www.target.com/c/cookware-bakeware-kitchen-dining/-/N-5xts6"
+		},
+		"CLOTHING" : {
+				"checked":false,
+				"num":8,
+				"1":"https://www.pinkcoconutboutique.com/",
+				"2":"http://www.tobi.com/",
+				"3":"https://www.kohls.com/",
+				"4": "https://www.jackthreads.com/",
+				"5": "http://www.6pm.com/mens",
+				"6": "http://www.sunglasshut.com/",
+				"7": "http://us.billabong.com/global_home.htm",
+				"8": "http://www.eastbay.com/"
+		},
+		"MUSIC" : {
+				"checked":false,
+				"num":9,
+				"1":"https://soundcloud.com/stream",
+				"2":"http://www.daytrotter.com/",
+				"3":"http://hypem.com/popular",
+				"4": "http://www.npr.org/music/",
+				"5": "http://pitchfork.com/",
+				"6": "http://www.tinymixtapes.com/",
+				"7": "https://www.ultimate-guitar.com/",
+				"8":"http://www.jazz.org/blog/",
+				"9": "https://bachtrack.com/"
+		},
+		"ART" : {
+				"checked":false,
+				"num":5,
+				"1":"http://unurth.com/",
+				"2":"http://illusion.scene360.com/",
+				"3":"http://www.creativeapplications.net/",
+				"4":"http://www.feeldesain.com/",
+				"5":"http://links.laughingsquid.com/"
 		}
 	}
 }
